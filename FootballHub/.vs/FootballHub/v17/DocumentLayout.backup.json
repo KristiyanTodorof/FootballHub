@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\application\\services\\matchappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\application\\services\\matchappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\application\\services\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\application\\services\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|c:\\users\\admin\\documents\\github\\footballhub\\footballhub\\footballhub.matchservice\\infrastructure\\data\\matchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B3251AB-2070-4ABE-9A07-775E83DF0339}|FootballHub.MatchService\\FootballHub.MatchService.csproj|solutionrelative:footballhub.matchservice\\infrastructure\\data\\matchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,8 +58,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\appsettings.json",
+              "RelativeDocumentMoniker": "FootballHub.MatchService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\appsettings.json",
+              "RelativeToolTip": "FootballHub.MatchService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T16:42:22.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Program.cs",
+              "RelativeDocumentMoniker": "FootballHub.MatchService\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Program.cs",
+              "RelativeToolTip": "FootballHub.MatchService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:41:56.388Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -58,7 +104,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\API\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "FootballHub.MatchService\\API\\Controllers\\MatchesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\API\\Controllers\\MatchesController.cs",
+              "RelativeToolTip": "FootballHub.MatchService\\API\\Controllers\\MatchesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:41:28.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Application\\Services\\MatchAppService.cs",
+              "RelativeDocumentMoniker": "FootballHub.MatchService\\Application\\Services\\MatchAppService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Application\\Services\\MatchAppService.cs",
+              "RelativeToolTip": "FootballHub.MatchService\\Application\\Services\\MatchAppService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwK8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:38:08.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMatchService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Application\\Services\\IMatchService.cs",
+              "RelativeDocumentMoniker": "FootballHub.MatchService\\Application\\Services\\IMatchService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Application\\Services\\IMatchService.cs",
+              "RelativeToolTip": "FootballHub.MatchService\\Application\\Services\\IMatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:36:44.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MatchDtos.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Application\\DTOs\\MatchDtos.cs",
               "RelativeDocumentMoniker": "FootballHub.MatchService\\Application\\DTOs\\MatchDtos.cs",
@@ -66,12 +151,11 @@
               "RelativeToolTip": "FootballHub.MatchService\\Application\\DTOs\\MatchDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:32:18.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:32:18.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MatchDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Infrastructure\\Data\\MatchDbContext.cs",
               "RelativeDocumentMoniker": "FootballHub.MatchService\\Infrastructure\\Data\\MatchDbContext.cs",
@@ -84,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "MatchEvents.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.Contracts\\Events\\MatchEvents.cs",
               "RelativeDocumentMoniker": "FootballHub.Contracts\\Events\\MatchEvents.cs",
@@ -92,12 +176,11 @@
               "RelativeToolTip": "FootballHub.Contracts\\Events\\MatchEvents.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA7wCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:27:08.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:27:08.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.Shared\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "FootballHub.Shared\\Models\\ApiResponse.cs",
@@ -109,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MatchEvent.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Domain\\Entities\\MatchEvent.cs",
               "RelativeDocumentMoniker": "FootballHub.MatchService\\Domain\\Entities\\MatchEvent.cs",
@@ -117,12 +200,11 @@
               "RelativeToolTip": "FootballHub.MatchService\\Domain\\Entities\\MatchEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:24:40.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:24:40.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.Shared\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "FootballHub.Shared\\Entities\\BaseEntity.cs",
@@ -134,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Match.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.MatchService\\Domain\\Entities\\Match.cs",
               "RelativeDocumentMoniker": "FootballHub.MatchService\\Domain\\Entities\\Match.cs",
@@ -142,8 +224,7 @@
               "RelativeToolTip": "FootballHub.MatchService\\Domain\\Entities\\Match.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:03:46.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:03:46.629Z"
             }
           ]
         }
