@@ -1,6 +1,6 @@
 ﻿using FootballHub.Shared.Entities;
 
-namespace FootballHub.MatchService.Domain
+namespace FootballHub.MatchService.Domain.Entities
 {
     public class Match : BaseEntity
     {

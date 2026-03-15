@@ -1,6 +1,8 @@
-﻿namespace FootballHub.MatchService.Domain
+﻿using FootballHub.Shared.Entities;
+
+namespace FootballHub.MatchService.Domain.Entities
 {
-    public class MatchEvent
+    public class MatchEvent : BaseEntity
     {
         public int MatchId { get; set; }
         public Match Match { get; set; } = null!;
