@@ -1,0 +1,6 @@
+@FootballHub.PlayerService_HostAddress = http://localhost:5069
+
+GET {{FootballHub.PlayerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
