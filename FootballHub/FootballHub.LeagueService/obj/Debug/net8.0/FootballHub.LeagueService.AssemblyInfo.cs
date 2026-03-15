@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootballHub.LeagueService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41a333bd1e7c99171b61671a0c9d2f355cd901ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2037f1eb3dab7536c325fbffee0b1d83b0bf91dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootballHub.LeagueService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootballHub.LeagueService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
