@@ -1,0 +1,2 @@
+# FootballHub
+FootballHub is a web-based platform designed to manage, analyze, and track football-related data in real time. The system is built using a microservices architecture, which allows each component of the platform to be developed, deployed, and scaled independently. The main goal of the project is to provide a centralized platform where users can access information about football matches, teams, players, statistics, and analytics.
