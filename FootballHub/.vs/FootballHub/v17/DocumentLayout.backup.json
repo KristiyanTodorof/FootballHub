@@ -270,8 +270,7 @@
               "RelativeToolTip": "FootballHub.Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:38:10.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:38:10.134Z"
             },
             {
               "$type": "Document",
@@ -283,8 +282,7 @@
               "RelativeToolTip": "FootballHub.Web\\wwwroot\\Index.html",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-17T12:37:06.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:37:06.762Z"
             },
             {
               "$type": "Document",
@@ -345,8 +343,7 @@
               "RelativeToolTip": "FootballHub.MatchService\\Program.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAUwEwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:41:56.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:41:56.388Z"
             },
             {
               "$type": "Document",
@@ -358,8 +355,7 @@
               "RelativeToolTip": "FootballHub.LeagueService\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T19:35:32.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T19:35:32.629Z"
             },
             {
               "$type": "Document",
@@ -371,21 +367,19 @@
               "RelativeToolTip": "FootballHub.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-17T12:38:19.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:38:19.147Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FootballHub.Web",
+              "Title": "FootballHub.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.Web\\FootballHub.Web.csproj",
               "RelativeDocumentMoniker": "FootballHub.Web\\FootballHub.Web.csproj",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\FootballHub\\FootballHub\\FootballHub.Web\\FootballHub.Web.csproj",
               "RelativeToolTip": "FootballHub.Web\\FootballHub.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-17T12:40:41.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:40:41.849Z"
             },
             {
               "$type": "Document",
@@ -421,8 +415,7 @@
               "RelativeToolTip": "FootballHub.PlayerService\\Infrastructure\\Data\\PlayerDbContextFactory.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T19:53:28.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T19:53:28.727Z"
             },
             {
               "$type": "Document",
