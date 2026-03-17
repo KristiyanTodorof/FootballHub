@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.LeaguesController",
+    "Method": "GetAllLeagues",
+    "RelativePath": "api/Leagues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.LeaguesController",
+    "Method": "CreateLeague",
+    "RelativePath": "api/Leagues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FootballHub.LeagueService.Application.DTOs.CreateLeagueRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.LeaguesController",
+    "Method": "GetLeague",
+    "RelativePath": "api/Leagues/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.LeaguesController",
+    "Method": "GetStandings",
+    "RelativePath": "api/Leagues/{id}/standings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.LeaguesController",
+    "Method": "UpdateStanding",
+    "RelativePath": "api/Leagues/{id}/standings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FootballHub.LeagueService.Application.DTOs.UpdateStandingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.LeagueService.API.Controllers.TeamsController",
+    "Method": "CreateTeam",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FootballHub.LeagueService.Application.DTOs.CreateTeamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

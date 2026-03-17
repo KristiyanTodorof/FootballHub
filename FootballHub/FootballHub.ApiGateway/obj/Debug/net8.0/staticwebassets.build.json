@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SiahUg109wioX2IpmgQjOu789pN293WYgyttcXiZ/ZY=",
+  "Source": "FootballHub.ApiGateway",
+  "BasePath": "_content/FootballHub.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

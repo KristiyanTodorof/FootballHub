@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootballHub.MatchService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f007cd6b1879717ed293d69cc0c9677598292b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8349c2c1bd8c3ea4752002f8cdf76c5dd964f2dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootballHub.MatchService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootballHub.MatchService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

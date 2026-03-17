@@ -9,19 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{85
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BEE0A0A5-BC5F-4118-BD89-E91C352D604E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.ApiGateway", "FootballHub.ApiGateway\FootballHub.ApiGateway.csproj", "{702B2C47-ED6A-49C8-99EB-4A97536448D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.ApiGateway", "FootballHub.ApiGateway\FootballHub.ApiGateway.csproj", "{702B2C47-ED6A-49C8-99EB-4A97536448D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.MatchService", "FootballHub.MatchService\FootballHub.MatchService.csproj", "{4B3251AB-2070-4ABE-9A07-775E83DF0339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.MatchService", "FootballHub.MatchService\FootballHub.MatchService.csproj", "{4B3251AB-2070-4ABE-9A07-775E83DF0339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.LeagueService", "FootballHub.LeagueService\FootballHub.LeagueService.csproj", "{39648FAD-29FC-4D9B-98B9-DD3E8428D72A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.LeagueService", "FootballHub.LeagueService\FootballHub.LeagueService.csproj", "{39648FAD-29FC-4D9B-98B9-DD3E8428D72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.PlayerService", "FootballHub.PlayerService\FootballHub.PlayerService.csproj", "{4ED26234-A29E-44E1-8E9E-CEFC252496D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.PlayerService", "FootballHub.PlayerService\FootballHub.PlayerService.csproj", "{4ED26234-A29E-44E1-8E9E-CEFC252496D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.NotificationService", "FootballHub.NotificationService\FootballHub.NotificationService.csproj", "{2E601B7A-2664-4A74-96A5-9E6A9901DDDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.NotificationService", "FootballHub.NotificationService\FootballHub.NotificationService.csproj", "{2E601B7A-2664-4A74-96A5-9E6A9901DDDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.Shared", "FootballHub.Shared\FootballHub.Shared.csproj", "{055F8ACF-14A2-4A51-B617-90D62DB5C462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.Shared", "FootballHub.Shared\FootballHub.Shared.csproj", "{055F8ACF-14A2-4A51-B617-90D62DB5C462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.Contracts", "FootballHub.Contracts\FootballHub.Contracts.csproj", "{D2A35D10-9B5F-41D9-8060-BF4F460F70B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballHub.Contracts", "FootballHub.Contracts\FootballHub.Contracts.csproj", "{D2A35D10-9B5F-41D9-8060-BF4F460F70B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballHub.Web", "FootballHub.Web\FootballHub.Web.csproj", "{C59879F3-84AF-416A-B6DA-2DCA4747BC6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D2A35D10-9B5F-41D9-8060-BF4F460F70B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A35D10-9B5F-41D9-8060-BF4F460F70B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A35D10-9B5F-41D9-8060-BF4F460F70B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59879F3-84AF-416A-B6DA-2DCA4747BC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59879F3-84AF-416A-B6DA-2DCA4747BC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59879F3-84AF-416A-B6DA-2DCA4747BC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59879F3-84AF-416A-B6DA-2DCA4747BC6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{2E601B7A-2664-4A74-96A5-9E6A9901DDDB} = {85DA42F7-65B7-4781-9378-C7BC1136941F}
 		{055F8ACF-14A2-4A51-B617-90D62DB5C462} = {BEE0A0A5-BC5F-4118-BD89-E91C352D604E}
 		{D2A35D10-9B5F-41D9-8060-BF4F460F70B3} = {BEE0A0A5-BC5F-4118-BD89-E91C352D604E}
+		{C59879F3-84AF-416A-B6DA-2DCA4747BC6A} = {6CE2A3C8-007C-4777-8A62-BC5B40FC7CCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDB27266-13BB-4DB0-9C07-A7607C08FEC2}

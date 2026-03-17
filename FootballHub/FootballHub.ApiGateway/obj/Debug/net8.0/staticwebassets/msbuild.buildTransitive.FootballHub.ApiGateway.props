@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FootballHub.ApiGateway.props" />
+</Project>

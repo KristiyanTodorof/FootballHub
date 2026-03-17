@@ -1,5 +1,6 @@
 ﻿using FootballHub.Contracts.Events;
 using FootballHub.MatchService.Application.DTOs;
+using FootballHub.MatchService.Application.Interfaces;
 using FootballHub.MatchService.Domain.Entities;
 using FootballHub.MatchService.Infrastructure.Data;
 using FootballHub.Shared.Models;
@@ -13,11 +14,16 @@ public class MatchAppService : IMatchService
 {
     private readonly MatchDbContext _context;
     private readonly IPublishEndpoint _publishEndpoint;
+    private readonly IMatchNotifier _notifier;
 
-    public MatchAppService(MatchDbContext context, IPublishEndpoint publishEndpoint)
+    public MatchAppService(
+        MatchDbContext context,
+        IPublishEndpoint publishEndpoint,
+        IMatchNotifier notifier)
     {
         _context = context;
         _publishEndpoint = publishEndpoint;
+        _notifier = notifier;
     }
 
     public async Task<ApiResponse<List<MatchDto>>> GetTodaysMatchesAsync()
@@ -85,6 +91,8 @@ public class MatchAppService : IMatchService
         match.UpdatedAt = DateTime.UtcNow;
         await _context.SaveChangesAsync();
 
+        var dto = MapToDto(match);
+
         await _publishEndpoint.Publish(new MatchStarted
         {
             MatchId = match.Id,
@@ -93,7 +101,9 @@ public class MatchAppService : IMatchService
             KickOff = match.KickOff
         });
 
-        return ApiResponse<MatchDto>.Ok(MapToDto(match));
+        await _notifier.NotifyMatchStartedAsync(dto);
+
+        return ApiResponse<MatchDto>.Ok(dto);
     }
 
     public async Task<ApiResponse<MatchDto>> UpdateScoreAsync(int id, UpdateScoreRequest request)
@@ -108,7 +118,10 @@ public class MatchAppService : IMatchService
         match.UpdatedAt = DateTime.UtcNow;
         await _context.SaveChangesAsync();
 
-        return ApiResponse<MatchDto>.Ok(MapToDto(match));
+        var dto = MapToDto(match);
+        await _notifier.NotifyScoreUpdatedAsync(dto);
+
+        return ApiResponse<MatchDto>.Ok(dto);
     }
 
     public async Task<ApiResponse<MatchDto>> AddMatchEventAsync(int id, AddMatchEventRequest request)
@@ -137,16 +150,6 @@ public class MatchAppService : IMatchService
         {
             if (request.Team == match.HomeTeamName) match.HomeScore++;
             else match.AwayScore++;
-
-            await _publishEndpoint.Publish(new GoalScored
-            {
-                MatchId = match.Id,
-                Team = request.Team,
-                PlayerName = request.PlayerName,
-                Minute = request.Minute,
-                HomeScore = match.HomeScore,
-                AwayScore = match.AwayScore
-            });
         }
         else if (request.Type == MatchEventType.OwnGoal)
         {
@@ -157,7 +160,34 @@ public class MatchAppService : IMatchService
         match.UpdatedAt = DateTime.UtcNow;
         await _context.SaveChangesAsync();
 
-        return ApiResponse<MatchDto>.Ok(MapToDto(match));
+        var dto = MapToDto(match);
+        var eventDto = new MatchEventDto(
+            matchEvent.Id,
+            matchEvent.Type.ToString(),
+            matchEvent.Minute,
+            matchEvent.PlayerName,
+            matchEvent.AssistPlayerName,
+            matchEvent.Team
+        );
+
+        await _notifier.NotifyMatchEventAsync(dto, eventDto);
+
+        if (request.Type == MatchEventType.Goal || request.Type == MatchEventType.OwnGoal)
+        {
+            await _publishEndpoint.Publish(new GoalScored
+            {
+                MatchId = match.Id,
+                Team = request.Team,
+                PlayerName = request.PlayerName,
+                Minute = request.Minute,
+                HomeScore = match.HomeScore,
+                AwayScore = match.AwayScore
+            });
+
+            await _notifier.NotifyGoalScoredAsync(dto, eventDto);
+        }
+
+        return ApiResponse<MatchDto>.Ok(dto);
     }
 
     public async Task<ApiResponse<MatchDto>> FinishMatchAsync(int id)
@@ -173,6 +203,8 @@ public class MatchAppService : IMatchService
         match.UpdatedAt = DateTime.UtcNow;
         await _context.SaveChangesAsync();
 
+        var dto = MapToDto(match);
+
         await _publishEndpoint.Publish(new MatchFinished
         {
             MatchId = match.Id,
@@ -181,7 +213,9 @@ public class MatchAppService : IMatchService
             FinishedAt = DateTime.UtcNow
         });
 
-        return ApiResponse<MatchDto>.Ok(MapToDto(match));
+        await _notifier.NotifyMatchFinishedAsync(dto);
+
+        return ApiResponse<MatchDto>.Ok(dto);
     }
 
     private static MatchDto MapToDto(Match match) => new(

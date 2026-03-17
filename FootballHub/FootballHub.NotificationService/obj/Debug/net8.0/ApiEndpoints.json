@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "FootballHub.NotificationService.API.Controllers.HealthController",
+    "Method": "Get",
+    "RelativePath": "api/Health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

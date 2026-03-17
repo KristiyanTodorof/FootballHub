@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "CreateMatch",
+    "RelativePath": "api/Matches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FootballHub.MatchService.Application.DTOs.CreateMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "GetMatch",
+    "RelativePath": "api/Matches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "AddMatchEvent",
+    "RelativePath": "api/Matches/{id}/events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FootballHub.MatchService.Application.DTOs.AddMatchEventRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "FinishMatch",
+    "RelativePath": "api/Matches/{id}/finish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "UpdateScore",
+    "RelativePath": "api/Matches/{id}/score",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FootballHub.MatchService.Application.DTOs.UpdateScoreRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "StartMatch",
+    "RelativePath": "api/Matches/{id}/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "GetLiveMatches",
+    "RelativePath": "api/Matches/live",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballHub.MatchService.API.Controllers.MatchesController",
+    "Method": "GetTodaysMatches",
+    "RelativePath": "api/Matches/today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

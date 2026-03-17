@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\bin\Debug\net8.0\FootballHub.Shared.deps.json
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\bin\Debug\net8.0\FootballHub.Shared.dll
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\bin\Debug\net8.0\FootballHub.Shared.pdb
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.sourcelink.json
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.dll
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\refint\FootballHub.Shared.dll
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\FootballHub.Shared.pdb
+C:\Users\Admin\Documents\GitHub\FootballHub\FootballHub\FootballHub.Shared\obj\Debug\net8.0\ref\FootballHub.Shared.dll

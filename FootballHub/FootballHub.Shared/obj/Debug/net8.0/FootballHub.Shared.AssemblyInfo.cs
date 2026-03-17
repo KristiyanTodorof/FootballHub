@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootballHub.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41a333bd1e7c99171b61671a0c9d2f355cd901ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8349c2c1bd8c3ea4752002f8cdf76c5dd964f2dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootballHub.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootballHub.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

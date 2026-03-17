@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootballHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.cs">
+</head>
+<body>
+
+    <nav>
+        <div class="brand">
+            <div class="brand-dot"></div>
+            <div class="brand-name">FootballHub</div>
+        </div>
+        <div class="nav-links">
+            <button class="nav-btn active" onclick="show('matches', this)">Matches</button>
+            <button class="nav-btn" onclick="show('standings', this)">Standings</button>
+            <button class="nav-btn" onclick="show('players', this)">Players</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="matches" class="page active">
+            <div class="section-head">
+                <span class="section-label">Today</span>
+                <div class="section-line"></div>
+            </div>
+            <div id="matches-list"><div class="loading">Loading matches...</div></div>
+        </div>
+
+        <div id="standings" class="page">
+            <div class="section-head">
+                <span class="section-label">Standings</span>
+                <div class="section-line"></div>
+            </div>
+            <div id="league-tabs" class="tabs"></div>
+            <div id="standings-body"></div>
+        </div>
+
+        <div id="players" class="page">
+            <div class="section-head">
+                <span class="section-label">Players</span>
+                <div class="section-line"></div>
+            </div>
+            <div id="pl-league-tabs" class="tabs"></div>
+            <div class="tabs">
+                <button class="tab active" id="tab-sc" onclick="switchPTab('scorers', this)">Top Scorers</button>
+                <button class="tab" id="tab-as" onclick="switchPTab('assists', this)">Top Assists</button>
+            </div>
+            <div id="players-list"></div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,5 +1,8 @@
+using FootballHub.MatchService.API.Hubs;
+using FootballHub.MatchService.Application.Interfaces;
 using FootballHub.MatchService.Application.Services;
 using FootballHub.MatchService.Infrastructure.Data;
+using FootballHub.MatchService.Infrastructure.SignalR;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +20,9 @@ builder.Services.AddDbContext<MatchDbContext>(options =>
 
 builder.Services.AddScoped<IMatchService, MatchAppService>();
 
+builder.Services.AddSignalR();
+builder.Services.AddScoped<IMatchNotifier, MatchNotifier>();
+
 builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq((ctx, cfg) =>
@@ -27,6 +33,28 @@ builder.Services.AddMassTransit(x =>
             h.Password(builder.Configuration["RabbitMQ:Password"] ?? "guest");
         });
         cfg.ConfigureEndpoints(ctx);
+    });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:3000", "http://localhost:5173")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowWeb", policy =>
+    {
+        policy.WithOrigins("http://localhost:5005")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
@@ -44,6 +72,9 @@ using (var scope = app.Services.CreateScope())
     await db.Database.MigrateAsync();
 }
 
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
+app.UseCors("AllowWeb");
 app.MapControllers();
+app.MapHub<MatchHub>("/hubs/matches");
 app.Run();
